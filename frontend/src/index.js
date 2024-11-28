@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {paths_} from "./config";
 
+import './styles/main.scss';
+
 import Home from "./pages/Home";
 import Creations from "./pages/Creations";
 import Logs from "./pages/Logs";
